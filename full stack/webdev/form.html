@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>My form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    
+    <form action="">
+        <h1>CONTACT US</h1>
+        <div> Name: <input placeholder="Enter the name" required type="text" name="username" id="name"></div>
+        <br>
+        <div> Email: <input placeholder="Enter the email" required type="email" name="useremail" id="email"></div>
+        <br>
+        <div> Message: <textarea placeholder="Enter the text" required  name="usermessage" id="Message" cols="60" rows="10"></textarea></div>
+        <br>
+        <div> Number: <input placeholder="Enter the number" required type="number" name="usernumber" id="number"></div>
+        <br>
+        <div> Gender: <select name="usergender" id="gender">
+            <option value="">choose one</option>
+            <option value="Male">Male</option>
+            <option value="female">female</option>
+            <option value="Transgender">Transgender</option>
+        </select></div>
+        <br>
+        <div class="my">
+            Frontend: <input required type="checkbox" name="skills" id="frontend">
+            Backend: <input required type="checkbox" name="skills" id="backend">
+        </div>
+        <br>
+        <fieldset>
+            <legend>Mode of Payment</legend>
+            cash: <input type="radio" name="payment" id="cash">
+            Bank: <input type="radio" name="payment" id="bank">
+        </fieldset>
+        <br>
+        <div>
+            Password: <input placeholder="password" type="Password" name="password" id="password">
+        </div>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>

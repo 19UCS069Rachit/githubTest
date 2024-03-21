@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+header{
+    
+    padding: 50px;
+    background-color: rgb(156, 9, 9);
+}
+header > a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+}
+header > a:hover{
+    color: black;
+    font-weight: 600;
+}
+section{
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(219, 219, 219);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+section > h1{
+    font-size: 40px;
+}
+section > img{
+    width: 700px;
+}
+footer{
+    width: 1000px;
+    margin: auto;
+    
+    background-color: #1d1b1b;
+    text-align: center;
+    padding: 50px 0px ;
+}
+footer > a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}

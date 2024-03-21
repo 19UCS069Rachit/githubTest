@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color:rgb(45,45,45) ;
+}
+.container {
+    width: 80%;
+    min-height: 100vh;
+    background-color: white;
+    margin: auto;
+    padding: 100px 50px;
+    box-sizing: border-box;
+}
+.container h1{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+#numOfWords{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid rgb(209, 204, 204);
+    margin-top: 20px;
+    width: 25%;
+    outline: none;
+    font: 100 1.3rem 'Times New Roman', Times, serif;
+}
+button{
+    color: white;
+    padding: 20px;
+    border: none;
+    font: 100 1.3rem 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: background-color 0.5s;
+
+}
+button:hover{
+    background-color: rgb(54, 47, 121);
+}
+
+
+.mypara{
+    background-color: rgb(165, 163, 163);
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
